@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Spoiler text</name>
+	<author>Beliyadm</author>
+	<creationDate>25 05 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@pbelkov.com</authorEmail>
+	<authorUrl>www.blog.pbelkov.com</authorUrl>
+	<version>1.1.2</version>
+	<description>Make show\hide spoiler content</description>
+	<files>
+		<filename plugin="pb_spoiler">pb_spoiler.php</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/jquery/accordion.js</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/jquery/jquery.js</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/jquery/style.css</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/mootools/spoiler.css</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/mootools/spoiler.js</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/down.gif</filename>
+		<filename plugin="pb_spoiler">pb_spoiler/up.gif</filename>
+	</files>
+	<params>
+		<param name="jstype" type="list" default="1" label="Библиотека" description="Используемая JS библиотка - mootools, по умолчанию встроенный в CMS, либо Jquery">
+			<option value="1">mootools</option>
+			<option value="2">jquery</option>
+	  	</param>
+		<param name="jsjquery" type="radio" default="1" label="Подгрузка Jquery" description="Загружать ли библиотеку Jquery?">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+	</params>
+</install>

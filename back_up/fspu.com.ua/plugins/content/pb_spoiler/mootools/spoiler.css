@@ -1,0 +1,24 @@
+.spoiler {clear: both;}
+.sp-head-click a {text-decoration: none; font-weight: bold !important; margin-bottom: 3px; display: block;}
+.sp-head-click a:hover {
+	text-decoration: none;
+}
+.sp-head {
+    padding: 0px 10px 0px 15px; font-weight: bold; cursor: pointer;
+}
+.sp-body {
+    font-weight: normal;
+    background: #F5F5F5;
+    border-top-width: 0;
+    padding: 6px
+}
+.folded {
+    display: block;
+    background: transparent url(../down.gif) no-repeat left center;
+    padding-left: 14px;
+}
+.unfolded {
+    display: block;
+    background: transparent url(../up.gif) no-repeat left center;
+    padding-left: 14px;
+} 

@@ -1,0 +1,52 @@
+body { margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(110, 144, 181); font-family: Arial,Verdana,sans-serif; font-size: 10px; }
+img { border: medium none; }
+a { text-decoration: underline; color: rgb(22, 22, 22); }
+a:hover { text-decoration: none; }
+h2 { font-size: 1.8em; font-family: Tahoma,Verdana,sans-serif; font-weight: normal; color: rgb(255, 255, 255); text-shadow: 0px 1px 1px rgb(68, 89, 112); text-transform: uppercase; margin: 20px 0px; }
+h3 { font-size: 1.8em; font-family: Tahoma,Verdana,sans-serif; font-weight: normal; color: rgb(0, 0, 0); text-transform: uppercase; margin: 20px 0px; }
+.clear { clear: both; }
+div.wrapper { padding: 0px 12px; margin: 0px auto; width: 976px; }
+div.header { background: url('header-bg.jpg') no-repeat scroll 50% 0px transparent; height: 183px; overflow: hidden; width: 1000px; margin: 0px auto; }
+div.header .wrapper { height: 183px; padding: 49px 0px 0px; background: url('alt-logo.jpg') no-repeat scroll 100% 0px transparent; }
+div.content { border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(236, 242, 247); }
+div.content .wrapper { padding: 45px 12px 0px; background: url('map.jpg') no-repeat scroll 0px 120px rgb(236, 242, 247); }
+.ct-left { float: left; }
+.ct-right { float: right; width: 480px; position: relative; min-height: 500px; margin-bottom: 45px; }
+.about { font-size: 1.4em; color: rgb(14, 81, 126); width: 305px; text-align: justify; background: url('about-bg.jpg') no-repeat scroll 0px 0px transparent; padding: 10px 11px 50px; }
+.stat { font-size: 2.4em; font-family: Tahoma,Arial,Vedana,sans-serif; color: rgb(41, 116, 168); text-transform: uppercase; padding: 260px 0px 0px 60px; text-shadow: 0px 1px 1px rgb(255, 255, 255); }
+.contentBlock { padding: 25px 22px; background: -moz-linear-gradient(rgb(255, 255, 255), rgb(229, 229, 229)) repeat scroll 0% 0% transparent; border-radius: 5px 5px 5px 5px; box-shadow: 0px 0px 1px rgb(255, 255, 255) inset; border: 1px solid rgb(222, 222, 222); position: relative; }
+.contentBlock p.title { margin: 0px; font-size: 1.4em; color: rgb(208, 26, 31); }
+.contentBlock p.q_num { font-family: Tahoma,Verdana,sans-serif; font-size: 1.2em; font-weight: bold; color: rgb(157, 157, 157); margin: 10px 0px; }
+.contentBlock p.q_num span { color: rgb(207, 71, 75); }
+p.quest { margin-top: 0px; font-size: 1.4em; font-weight: bold; }
+.section input, input.inputtext { width: 410px; padding: 0px 10px; height: 40px; line-height: 40px; margin: 0px 0px 15px; border: 1px solid rgb(208, 208, 208); box-shadow: 0px 10px 10px 0px rgb(241, 241, 241) inset; }
+.section select { margin: 0px 5px 10px 0px; padding: 4px; }
+#stages p { margin: 0px 0px 10px; font-size: 1.1em; height: 12px; float: left; width: 100%; }
+span.ri { float: right; width: 160px; text-align: right; color: rgb(208, 26, 31); display: inline; }
+span.left, span.ri span.prc { float: left; display: inline; }
+span.ri span.right { display: none; float: right; }
+.nextq, .next, .signout { height: 55px; width: 440px; background: url('buttons.png') no-repeat scroll 0px 0px transparent; margin: 0px -3px 12px; cursor: pointer; border: medium none; }
+.desc { margin: 0px; border: 1px solid rgb(204, 223, 238); background: none repeat scroll 0% 0% rgb(220, 233, 244); padding: 10px; font-size: 11px; font-family: Tahoma,Verdana,sans-serif; color: rgb(47, 68, 90); text-align: justify; position: relative; border-radius: 5px 5px 5px 5px; text-shadow: 0px 1px 1px rgb(255, 255, 255); }
+.desc:after { content: ""; position: absolute; z-index: 1000; top: -5px; left: 50%; border-width: 0px 5px 5px; border-style: none solid solid; border-color: -moz-use-text-color transparent rgb(220, 233, 244); }
+p.quest span { font-size: 0.8em; font-weight: normal; }
+.ct-right ul { list-style-type: none; padding: 0px; position: absolute; bottom: 20px; }
+.ct-right ul li { font-size: 1.4em; color: rgb(89, 109, 120); background: url('checkbox.png') no-repeat scroll 0px 1px transparent; padding: 0px 0px 9px 20px; text-shadow: 0px 1px 1px rgb(255, 255, 255); }
+#q_body { overflow: hidden; }
+.section { display: none; }
+.opinions { padding: 18px 0px 0px; background: url('dotted.png') repeat-x scroll 0px 0px transparent; }
+.opinions ul { margin: 0px -10px 10px 0px; padding: 0px; list-style-type: none; }
+.opinions ul li { padding: 0px 10px; float: left; width: 225px; }
+.opinions ul li img { float: left; margin-right: 10px; }
+.opinions ul li p { margin: 0px; }
+.opinions ul li p.name { font-size: 1.2em; color: rgb(37, 60, 74); }
+.opinions ul li p.citi { font-size: 1.2em; color: rgb(255, 255, 255); margin: 10px 0px; }
+.opinions ul li p.text { font-size: 1.1em; color: rgb(37, 60, 74); text-align: justify; clear: both; }
+.addOpinion { clear: both; background: url('dotted.png') repeat-x scroll 0px 100% transparent; padding: 10px 0px 18px; text-align: right; font-size: 1.1em; }
+.addOpinion a { color: rgb(255, 255, 255); }
+.copy { float: left; color: rgb(101, 120, 141); font-size: 1.1em; }
+.links { margin: 10px 0px; padding: 0px; list-style-type: none; float: right; }
+.links li { display: inline; }
+.links a { margin-right: 10px; color: rgb(101, 120, 141); font-size: 1.1em; }
+.info { clear: both; margin: 100px 0px 20px; color: rgb(101, 120, 141); font-size: 1.1em; }
+.rid { margin-top: 800px; color: rgb(141, 164, 189); }
+.rid a { color: rgb(141, 164, 189); }

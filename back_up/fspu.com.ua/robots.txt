@@ -1,0 +1,4 @@
+ User-agent: *
+Disallow:
+Sitemap: http://fspu.com.ua/includes/sitemap.xml 
+Sitemap: http://fspu.com.ua/includes/sitemap.xml

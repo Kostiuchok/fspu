@@ -1,0 +1,30 @@
+Options +SymLinksIfOwnerMatch
+Options -Indexes
+
+DirectoryIndex index.php
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value memory_limit 256M 
+
+php_value session.cookie_lifetime 172800
+php_value session.gc_maxlifetime 172800
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|img|pic|js|style\.css|robots\.txt)
+RewriteCond %{REQUEST_URI} !\.(app|css│js│jpg│gif|png)$
+
+### Canonicalize codeigniter URLs
+#RewriteRule ^(home(/index)?|index(\.php)?)/?$ / [L,R=301]
+#RewriteRule ^(.*)/index/?$ $1 [L,R=301]
+
+# Removes trailing slashes (prevents SEO duplicate content issues)
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ $1 [L,R=301]
+
+# Enforce NO www
+RewriteCond %{HTTP_HOST} ^www [NC]
+RewriteRule ^(.*)$ http://fspu.com.ua/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]

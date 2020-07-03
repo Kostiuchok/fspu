@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="editors-xtd">
+	<name>Content - Spoiler Button</name>
+	<author>Beliyadm</author>
+	<creationDate>13 05 2009</creationDate>
+	<copyright>(C) 2009, 2008 Beliyadm. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>beliyadm@gmail.com</authorEmail>
+	<authorUrl>http://blog.pbelkov.com</authorUrl>
+	<version>1.0</version>
+	<description>Add test button into editor area and create spoiler</description>
+	<files>
+		<filename plugin="pb_spoiler">pb_spoiler.php</filename>
+		<filename plugin="pb_spoiler">pb_spoiler.css</filename>
+		<filename plugin="pb_spoiler">pb_spoiler.png</filename>
+	</files>
+	<params>
+		<param name="btext" type="textarea" cols="25" rows="5" default="{spoiler title=Скрытый текст}{/spoiler}" label="Button text" description="Теги, вставляемые кнопкой" />
+		<param name="bname" type="text" cols="25" rows="5" default="Spoiler" label="Spoiler" description="Название кнопки" />
+	</params>
+</install>

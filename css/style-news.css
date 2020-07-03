@@ -1,0 +1,83 @@
+.informers-layout{margin: 0px auto; font-size: 12px;}
+
+.inf-block{
+  width: 395px;
+  font-family: Arial, Helvatica, sans-serif;
+  line-height: 1.2em;
+  text-align: left; 
+}
+
+.g-inf-block{
+  width: 730px;
+  font-family: Arial, Helvatica, sans-serif;
+  line-height: 1.2em;
+  text-align: left; 
+}
+
+.g-inf-body{padding: 7px 10px 7px; margin: 0; border: 1px solid #e6e6e6; position:relative; zoom:1}
+.g-inf-body-glance div a img{margin: 10px 6px 5px}
+.g-inf-body div a img{margin: 4px 5px 0 0; }
+
+a.inf-links{color: #046496; text-decoration: none;}
+a.inf-links img{border: none; padding:0; vertical-align: middle;}
+a.inf-text-links{color: #046496; text-decoration: none; margin: 0 6px 0; display: block}
+
+.inf-block div h1{font-size: 1.2em; line-height: 28px;}
+.g-inf-block div h1{font-size: 1.2em;}
+
+.header-simple{height: 30px; line-height: 28px !important;}
+
+.header-lite{background: url(http://www.segodnya.ua/user/img/informers/bg_lite.gif) #fff no-repeat;  border: 1px solid #e6e6e6; border-bottom: none; height: 28px !important; height: 29px; line-height: 28px;}
+.header-lite h1, .g-header-lite h1{padding: 0 0 0 10px; margin: 0; display: block}
+div.g-header-lite{background: url(http://www.segodnya.ua/user/img/informers/g_bg_lite.gif) #fff no-repeat; border: 1px solid #e6e6e6; border-bottom: none; height: 28px; line-height: 28px;}
+
+.header-glans{background: url(http://www.segodnya.ua/user/img/informers/bg_glance.gif) #fff no-repeat; height: 33px !important; height: 32px; line-height: 32px;}
+.header-glans h1 a, .g-header-glans h1 a{color: #fff; padding-left: 10px}
+
+.g-header-glans{background: url(http://www.segodnya.ua/user/img/informers/bg_top_glance.png) #fff no-repeat; height: 33px !important; height: 32px; line-height: 32px;}
+
+.bottom-glance{background: url(http://www.segodnya.ua/user/img/informers/bg_bottom_glance.png) #fff no-repeat; height: 14px;}
+.g-bottom-glance{background: url(http://www.segodnya.ua/user/img/informers/bg_g_bottom_glance.png) #fff no-repeat; height: 14px; margin: 0; padding: 0; font-size: 0;}
+
+.inf-body{padding: 7px; border: 1px solid #e6e6e6; position:relative; zoom:1}
+.inf-body-glance{padding: 7px 7px 0; border-left: 1px solid #77abd2; border-right: 1px solid #77abd2; border-top: 1px solid #3872a5; position:relative; zoom:1}
+div.inf-item-glance{margin: 0 0 10px 0}
+div.inf-item-glance a img{margin: 0 6px 5px}
+
+.g-ibody-glance{padding: 7px 10px 0; margin: 0; border-left: 1px solid #77abd2; border-right: 1px solid #77abd2; border-top: 1px solid #3872a5; position:relative; zoom:1}
+.g-ibody-glance div a img{margin: 4px 5px 0 0}
+div.inf-item a img{margin: 3px 5px 0 0; }
+
+.inf-item-glance{float:left; width: 50% !important;  width: 140px; position: relative;}
+
+.g-inf-item{float:left; width: 33.3% !important;  width: 230px; position: relative; margin-bottom: 7px}
+
+.inf-item{margin: 0 0 7px 0;}
+.last-inf-item{height: 14px; line-height: 14px; margin: 0;}
+.bot-inf-glance{margin: 0px 5px 0px}
+
+.inf-date{color: #797979; padding-left: 5px; font-size: 0.95em}
+
+.i-left{float: left}
+.i-right{float: right}
+.clr{clear: both; height: 0px; font-size: 0px; }
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.inf-panel{width: 600px; margin: 20px 0; text-align: left; font-family: Arial}
+table.inf-panel tr td{padding: 5px 0}
+
+.left-col{width: 250px}
+.ir-space{margin-right: 30px}
+.small-mark{font-size: 11px; color: #999999}
+
+.size150{width: 150px}
+
+.get-code-but{background: url(http://www.segodnya.ua/user/img/informers/button_na.png) no-repeat; width: 315px; height: 30px; line-height: 30px; display: inline-block; text-align: center;}
+.get-code-but:hover{background: url(http://www.segodnya.ua/user/img/informers/button_a.png) no-repeat;}
+a.get-code-but{color: #046496; text-decoration: none}
+a.get-code-but:hover{text-decoration: none}

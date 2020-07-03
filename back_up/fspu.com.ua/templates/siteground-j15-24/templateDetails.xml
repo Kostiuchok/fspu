@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>siteground-j15-24</name>
+	<version>1.0.0</version>
+	<creationDate>06/12/07</creationDate>
+	<author>SiteGround</author>
+	<authorEmail>templates@siteground.com</authorEmail>
+	<authorUrl>http://www.siteground.com</authorUrl>
+	<copyright>SiteGround</copyright>
+	<license>SG TOS</license>
+	<description>TEMPLATE_DESCRIPTION</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>templates.php</filename>
+		<filename>images/active_arrow.gif</filename>
+		<filename>images/active_arrow.jpg</filename>
+		<filename>images/and.gif</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/banner_01.jpg</filename>
+		<filename>images/banner_02.jpg</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/css.gif</filename>
+		<filename>images/current_link.jpg</filename>
+		<filename>images/footer.jpg</filename>
+		<filename>images/h3_bg.gif</filename>
+		<filename>images/header_bg.jpg</filename>
+		<filename>images/html.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/left_bg.jpg</filename>
+		<filename>images/leftcol_bg.jpg</filename>
+		<filename>images/maincol_bg.jpg</filename>
+		<filename>images/menu_sub_link_bg.gif</filename>
+		<filename>images/mw_readon.png</filename>
+		<filename>images/right_bg.jpg</filename>
+		<filename>images/rightside_bg.jpg</filename>
+		<filename>images/sectiontableheader_bg.gif</filename>
+		<filename>images/spacer.png</filename>
+		<filename>images/tabarea_bg.jpg</filename>
+		<filename>images/top_bg.jpg</filename>
+		<filename>images/wrapper_bg.jpg</filename>	
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/ie.css</filename>
+	</files>
+        <positions>
+		<position>left</position>
+         	<position>top</position>
+		<position>user3</position>
+                <position>debug</position>
+        </positions>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_siteground-j15-24.ini</language>
+	</languages>
+	<administration>
+	    <languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_siteground-j15-24.ini</language>
+		</languages>
+    </administration>
+</install>

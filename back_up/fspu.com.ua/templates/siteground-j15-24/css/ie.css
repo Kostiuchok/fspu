@@ -1,0 +1,21 @@
+#leftcolumn h3, #rightcolumn h3 {
+	height:36px;
+	color:#fff;
+	font-weight: bold;
+	font-family: Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	line-height:26px;
+	margin: -2px 0 0 ;
+	position:absolude;
+	padding:0px 0 0px 22px;
+	text-align: left;
+	width:197px;
+	background:transparent url(../images/h3_bg.gif) top left no-repeat;
+}
+
+div#maincolumn {
+padding:20px 10px;
+float:left;
+width: 559px;
+background: url(../images/maincol_bg.jpg) top left no-repeat;
+}
